@@ -1,0 +1,74 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#sectionId {
+background: rgba(1, 184, 165, 0.87);
+  width: 100%;
+ padding-bottom: 100px;
+  padding-top: 100px;
+}
+#sectionId h1 {
+  text-align: center;
+}
+#sectionId form {
+    width: 100%;
+  text-align: center;
+ 
+}
+#sectionId form h5 {
+  text-align: left;
+}
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.parent .childe {
+    padding: 10px;
+  }
+.parent .childe h5 {
+  padding: 40px 5px 10px 5px;
+}
+#sectionId h5 sup {
+  color: red;
+}
+.parent .childe input {
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  border-width: 0px;
+}
+.parent .childe2 input {
+  width: 300px;
+}
+#sectionId .send{
+    width: 100%;
+    padding-top: 40px;
+}
+#sectionId #messageId textarea{
+    border-radius: 10px;
+    width: 84%;
+    border: none;
+}
+#sectionId #messageId h5{
+    padding-left: 140px;
+}
+#sectionId .send button{
+    width: 84%;
+    max-width: ;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px; 
+    transition: .3s;
+}
+#sectionId .send button .home-btn{
+    text-decoration: none;
+}
+#sectionId .send button:hover{
+	transform:scaleZ(2);
+    letter-spacing: 2px;
+}

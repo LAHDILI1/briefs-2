@@ -1,0 +1,300 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+
+header {
+    width: 100%;
+  }
+  .navbar {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    align-items: center;
+  }
+  .navbar a {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    align-items: center;
+    color: #0F2137;
+  }
+  .navbar a img {
+    padding-right: 10px;
+  }
+  
+  .navbar section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .navbar section a {
+    padding-right: 20px;
+  }
+  .navbar .medelbar {
+    display: flex;
+    align-items: center;
+    width: 30%;
+  }
+  .navbar .medelbar li {
+    list-style: none;
+    padding-left: 50px;
+  }
+.rightbar{
+    
+    justify-content: center;
+
+  }
+.rightbar h4{
+color: #0A8080;
+text-align: right;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 33px;
+
+  }
+.rightbar a:nth-child(2){
+  flex-direction: column;
+}
+.rightbar img{
+width: 83.235px;
+height: 5.999px;
+flex-shrink: 0;
+}
+
+.central{
+  padding-top: 80px;
+  text-align: center;
+  
+}
+.central h1{
+color: #02073E;
+text-align: center;
+font-family: B612;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 75px; 
+letter-spacing: -1px;
+
+}
+.central h6{
+color: #02073E;
+text-align: center;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px;
+}
+
+
+
+  #contact{
+	background: #fff;
+    padding: 20px 30px 40px 40px;
+    align-items: center;
+}
+.main{
+	display: flex;
+	flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.footer{
+	display: flex;
+  align-items: center;
+  justify-content: space-around;
+    
+}
+.list{
+	
+    align-items: center;
+    padding: 25px;
+    
+}
+.list h4{
+	font-size: 21px;
+	margin-bottom: 30px;
+	position: relative;
+}
+.list h4::before{
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 60px;
+	left: 0;
+	bottom: -10px;
+}
+.list ul li:not(last-child) {
+	margin-bottom: 16px;
+    list-style: none;
+}
+.list ul li a{
+	color: #4b4b4bbf;
+	display: block;
+	transition: .3s;
+    text-decoration: none;
+}
+.list ul li img{
+    height: 15px;
+    
+}
+.list strong{
+    padding-left: 10px;
+    font-size: 20px;
+    color: #0F2137;
+}
+#icone{
+    height: 30px; 
+    
+}
+#li1Id{
+    padding-top: 20px;
+
+}
+#li2Id{
+    font-size: 13px;
+    color: #4b4b4bbf;
+}
+.list ul li a:hover{
+	transform: translateX(14px);
+}
+
+
+
+
+
+
+.subscribe{
+  
+  background: #F8F0EA;
+  background-image: url(img/imgback.png);
+  background-size: 100%;
+  padding: 66px 66px;
+  display: flex;
+  justify-content: center;
+}
+.subscribe .cotainer{
+
+  width: 60%;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #FFF;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 50px; 
+
+}
+.subscribe .cotainer #textId{
+  width: 40%;
+}
+.subscribe .cotainer #textId h3{
+color: #0F2137;
+font-family: B612;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+/* line-height: 35px; */
+/* letter-spacing: -0.5px; */
+}
+.subscribe .cotainer #textId p{
+  width: 421px;
+  height: 53px;
+  flex-shrink: 0;
+
+  color: #343D48;
+  
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+.subscribe .cotainer .divsend{
+  display: flex;
+  flex-wrap: wrap;
+}
+#checkboxId{
+  display: flex; 
+}
+
+.subscribe .cotainer .divsend #emaiId{
+padding-left: 20px;
+width: 350px;
+height: 55px;
+flex-shrink: 0;
+border-width: 0;
+border-radius: 5px;
+background: #EFF3F7;
+}
+
+.subscribe .cotainer .divsend #checkboxId{
+  padding-top: 20px;
+}
+
+.subscribe .cotainer .divsend #checkboxId p{
+color: #9095AD;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+padding-left: 10px;
+opacity: 0.9;
+
+}
+/* #inputId{
+  border-width: 0;
+  background: #1a3c5f;
+} */
+
+.subscribe .cotainer .divsend button{
+height: 55px;
+width: 150px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #DB4A87;
+border-width: 0;
+margin-left: 10px;
+
+transition: .3s;
+}
+.subscribe .cotainer .divsend button a{
+text-decoration: none;
+width: 100%;
+height: 100%;
+color: #FFF;
+text-align: center;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+
+}
+
+
+.subscribe .cotainer .divsend button:hover{
+  height: 55px;
+  width: 150px;
+  border-radius: 5px;
+  background: #ff002f;
+  box-shadow: 5px 5px #DB4A87;
+  transform:scaleZ(5);
+}
+
+.line{
+  max-width: 1200px;
+  width: 90%;
+  height: 2px;
+  opacity: 0.10;
+  background: #5f5f5f;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
