@@ -224,7 +224,7 @@ letter-spacing: -1px;
     font-weight: 400;
     line-height: 42px; /* 247.059% */
 }
-.cotainer4 .box2 h6{
+.cotainer4 .box2 p{
     padding-bottom: 40px;
     color: #02073E;
     font-family: DM Sans;
@@ -260,11 +260,11 @@ justify-content: space-evenly;
     height: 40%;
 }
 .cotainer5 #backgrand1{
-    background-image: url(img/image_3.png);
+    background-image: url(img/image_3.webp);
     margin-bottom: 5px;
 }
 .cotainer5 #backgrand2{
-    background-image: url(img/image_4.png);
+    background-image: url(img/image_4.webp);
     margin-top: 5px;
 }
 .cotainer5 .backgrand{

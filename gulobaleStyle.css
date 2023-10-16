@@ -82,7 +82,7 @@ line-height: 75px;
 letter-spacing: -1px;
 
 }
-.central h6{
+.central h2{
 color: #02073E;
 text-align: center;
 font-family: DM Sans;
@@ -174,7 +174,7 @@ line-height: 42px;
 .subscribe{
   
   background: #F8F0EA;
-  background-image: url(img/imgback.png);
+  background-image: url(img/imgback.webp);
   background-size: 100%;
   padding: 66px 66px;
   display: flex;
